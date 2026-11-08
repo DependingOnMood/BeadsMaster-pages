@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/BeadsMaster-pages/sw.js', { scope: '/BeadsMaster-pages/' })})}
